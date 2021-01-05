@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+            <ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>7k8j2k9Oy0UYNunkckXDEBXFlog=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>VGPdrt2XjPlbRWqjdcfKFHUMPndNPSoPGsm6OzYBviX0rsAejz5bZqZ4jGgcAXtATaFL4fzrOqGyvLEp7n3V53Wj8/XngqDJuIoz15+dib6Oe38I3qQyctfVZQMKVnqrK4ymLGOSF+LbWVNLeGhwaDjU0SJok3ldCxxmtBTr387zoaU9AhVYHCo+npIWuGHciiOIxyye7WolwbnIIl3XNG6qcjG7qdwTT1k15FZvzLKsR1xF6um8lZf5/3SdQZdGOMV/h3yepjybbl5moC0+iM4dnGkAC4j6WRO2zAQ9XdyxDipjBSDb7SjGaf5SsL5dRnMF2JHqj9bwUeQ/+wL7xg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+DCCA+CgAwIBAgIJAMlxOPOOCtmcMA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMTA3MDQ0MTgzNDEgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTE5MDcwMjIwMTI1MloXDTIxMDcwMTIwMTI1MlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAxMDcwNDQxODM0MSAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCeOt8jCHYgdCJkUQdQkDdOu6aPld73iqolBUfX5Zy6mb6fDqtTVoVoN+ag/CBudifXGIlzI5h5cYKKLIkTbWFsLOGH+TbU8533bFS4fprOceSnewaZqP1iLiV1HaLxPgT22eqYbjxf+NYn7oCdBI19gFSxFX6iaCTUGO4ZJl/pqcFDiLsog+/DuVH/3SO8VRkMAn2f6kSHx1/7fonJH8SHcnqDN2WD0vCaP9yCEg/aSyn2pyKvWeau8Km5mDNIWgxOxB/skloIecC2xT0+/3tyRumgxwSgPR77n+9V4xGViNvw0DH7Yr6vzue5EcYW25zffxjnKcKkKjbte+YI9vGxAgMBAAGjVzBVMB0GA1UdDgQWBBTsNP8IAro6vvhpz0PiT3D2sk7v+DAfBgNVHSMEGDAWgBTsNP8IAro6vvhpz0PiT3D2sk7v+DATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAjv7cB/hW3KhEOGJDHX3u3RVNBq/735QweagYRuFF4lauVIN2+KlO0LgVXECwhPBGTjh+HWlT9OJXzgVj93US4jg2oCUUAEiSb2plNNkIy2ocOqJ8Id2HVvEJwYwOpOBwFvbgHHpj0sxFUVW9Pcn/PppTQIZU6ikRb5xgoGJNZQSTi/EV2C+FO8ONo16X0WA472uUClUMW1ChaBVtycp+bS+KyZwE0wD87Hl0Q21U8mV08qPHESs8Hge3EXoAnqBYv0ET89oeblIFbCiPH7/RxrErwoZ3+UU5P8D28upaiOX3+TxBDf1lesP8pBNE4g6urC9bvSa4KidqAQZCIkljtw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>2.0</cbc:CustomizationID>
+    <cbc:ID>F002-8</cbc:ID>
+    <cbc:IssueDate>2019-06-24</cbc:IssueDate>
+    <cbc:IssueTime>00:00:00</cbc:IssueTime>
+    <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+    <cac:DiscrepancyResponse>
+        <cbc:ReferenceID>F002-201</cbc:ReferenceID>
+        <cbc:ResponseCode>01</cbc:ResponseCode>
+        <cbc:Description><![CDATA[ANULACION DE LA OPERACION]]></cbc:Description>
+    </cac:DiscrepancyResponse>
+    <cac:BillingReference>
+        <cac:InvoiceDocumentReference>
+            <cbc:ID>F002-201</cbc:ID>
+            <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+        </cac:InvoiceDocumentReference>
+    </cac:BillingReference>
+    <cac:Signature>
+        <cbc:ID>IDSignST</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID>20546140807</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[EBC PRINCIPAL]]></cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>#SignatureSP</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="6" schemeName="SUNAT:Identificador de Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20546140807</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[EBC PRINCIPAL]]></cbc:Name>
+            </cac:PartyName>
+            <cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[EBC PRINCIPAL]]></cbc:RegistrationName>
+                <cac:RegistrationAddress>
+                    <cbc:AddressTypeCode>0001</cbc:AddressTypeCode>
+                </cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="6" schemeName="SUNAT:Identificador de Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20332940008</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyLegalEntity>
+<cbc:RegistrationName><![CDATA[MACMILLAN PUBLISHERS S.A.]]></cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="PEN">148.73</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">826.27</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">148.73</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cac:TaxScheme>
+                    <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">1000</cbc:ID>
+                    <cbc:Name>IGV</cbc:Name>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:PayableAmount currencyID="PEN">975</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal><cac:CreditNoteLine>
+        <cbc:ID>1</cbc:ID>
+<cbc:CreditedQuantity unitCode="NIU">5</cbc:CreditedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">275.42</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">65</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">49.58</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">275.42</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">49.58</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:Percent>18</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+<cbc:Description><![CDATA[BOUNCE NOW STUDENTS BOOK PACK 3]]></cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID><![CDATA[9780230420083]]></cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+<cbc:PriceAmount currencyID="PEN">65</cbc:PriceAmount>
+        </cac:Price>
+    </cac:CreditNoteLine><cac:CreditNoteLine>
+        <cbc:ID>2</cbc:ID>
+<cbc:CreditedQuantity unitCode="NIU">5</cbc:CreditedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">275.42</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">65</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">49.58</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">275.42</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">49.58</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:Percent>18</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+<cbc:Description><![CDATA[BOUNCE NOW STUDENTS BOOK PACK 2]]></cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID><![CDATA[9780230420014]]></cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+<cbc:PriceAmount currencyID="PEN">65</cbc:PriceAmount>
+        </cac:Price>
+    </cac:CreditNoteLine><cac:CreditNoteLine>
+        <cbc:ID>3</cbc:ID>
+<cbc:CreditedQuantity unitCode="NIU">5</cbc:CreditedQuantity>
+<cbc:LineExtensionAmount currencyID="PEN">275.42</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+<cbc:PriceAmount currencyID="PEN">65</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+<cbc:TaxAmount currencyID="PEN">49.58</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+<cbc:TaxableAmount currencyID="PEN">275.42</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="PEN">49.58</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:Percent>18</cbc:Percent>
+<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+<cbc:Description><![CDATA[BOUNCE NOW STUDENTS BOOK PACK 1]]></cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID><![CDATA[9780230419957]]></cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+<cbc:PriceAmount currencyID="PEN">65</cbc:PriceAmount>
+        </cac:Price>
+    </cac:CreditNoteLine></CreditNote>

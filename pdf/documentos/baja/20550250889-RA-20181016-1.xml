@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<VoidedDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><ds:Signature Id="SignSUNAT">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>T6npSMqjgEfJEhShz4vWSyNr28c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ICEaHXQosqhPgKbKW8zLY6riSToc/uyvaWVu11bMnNYjCxbtTJTVMk3qdF20+OmIJVNdDT5/u0cunjaHHpFoESSzTqvsJyRkUoqu1qD+0ZxUMyDAlkc25X40IDZp0KsEf3+1lqk4FpBbNp30gYl2QWdEX442LAxQBcB/m9Qfm8Han8oaUFWw0i7Ujx7cRT4q1HGSIjxczXFBqznuSdSayMrvvjIRCwVz3sjt5gthuHnv0w9VNu+wRjF3zR1qclsjglTlRU4CZ1j10O41i4Kx4P7UmsK6N0xylwL6Ez/oqKdvL5YyH107ZD+0s9z32DbKdBEYe8p7qw99vUTBMKyPXQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509SubjectName>C=PE,CN=LUIS EDUARDO AMES ZUÑIGA,GN=LUIS EDUARDO,SN=AMES ZUÑIGA,title=GERENTE,OU=20532710066,OU=GERENCIA,O=SUR MOTRIZ SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA,UNDEF=DNI,serialNumber=00431156,ST=TACNA-TACNA,L=TACNA,description=Qualified Certificate: RACER-PFVP-SW-KPSC,emailAddress=tacna@surmotriz.com</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>RA-20181016-1</cbc:ID>
+  <cbc:ReferenceDate>2018-10-15</cbc:ReferenceDate>
+  <cbc:IssueDate>2018-10-16</cbc:IssueDate>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20550250889</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>SUPPORT SYSTEM  COMPUTER CHAMORRO S.A.C</cbc:Name>
+      </cac:PartyName>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>SUPPORT SYSTEM  COMPUTER CHAMORRO S.A.C</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <sac:VoidedDocumentsLine>
+    <cbc:LineID>1</cbc:LineID>
+    <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+    <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+    <sac:DocumentNumberID>195</sac:DocumentNumberID>
+    <sac:VoidReasonDescription>Error en el sistema</sac:VoidReasonDescription>
+  </sac:VoidedDocumentsLine>
+</VoidedDocuments>

@@ -1,0 +1,19 @@
+[05-Jun-2017 06:41:34 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/compufvu/public_html/sistema/pdf/documentos/res/ver_factura_html.php on line 295
+[05-Jun-2017 06:42:45 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/compufvu/public_html/sistema/pdf/documentos/res/ver_factura_html.php on line 295
+[05-Jun-2017 06:42:50 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/compufvu/public_html/sistema/pdf/documentos/res/ver_factura_html.php on line 295
+[05-Jun-2017 06:45:21 Etc/GMT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/compufvu/public_html/sistema/pdf/documentos/res/ver_factura_html.php on line 295
+[30-Nov-2018 12:45:12 America/Lima] PHP Notice:  Undefined variable: r in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 271
+[30-Nov-2018 12:45:12 America/Lima] PHP Notice:  Undefined index: TIPO_OPERACION in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 315
+[30-Nov-2018 12:45:12 America/Lima] PHP Notice:  Undefined index: CODIGO_PAIS_EMPRESA in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 386
+[30-Nov-2018 12:59:22 America/Lima] PHP Notice:  Undefined variable: r in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 271
+[30-Nov-2018 12:59:22 America/Lima] PHP Notice:  Undefined index: TIPO_OPERACION in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 315
+[30-Nov-2018 12:59:22 America/Lima] PHP Notice:  Undefined index: CODIGO_PAIS_EMPRESA in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 386
+[30-Nov-2018 13:07:03 America/Lima] PHP Notice:  Undefined variable: r in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 271
+[30-Nov-2018 13:07:03 America/Lima] PHP Notice:  Undefined index: TIPO_OPERACION in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 315
+[30-Nov-2018 13:07:03 America/Lima] PHP Notice:  Undefined index: CODIGO_PAIS_EMPRESA in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 386
+[19-Jan-2019 23:16:56 America/Lima] PHP Notice:  Undefined variable: r in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 271
+[19-Jan-2019 23:16:56 America/Lima] PHP Notice:  Undefined index: TIPO_OPERACION in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 315
+[19-Jan-2019 23:16:56 America/Lima] PHP Notice:  Undefined index: CODIGO_PAIS_EMPRESA in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 386
+[19-Jan-2019 23:16:56 America/Lima] PHP Notice:  Undefined variable: texto_moneda in /home/y0fo1vct2qse/public_html/DemoFact/pdf/documentos/factura_pdf.php on line 896
+[20-Jan-2019 04:16:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/y0fo1vct2qse/public_html/DemoFact/pdf/_class/locale.class.php on line 70
+[20-Jan-2019 04:16:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/y0fo1vct2qse/public_html/DemoFact/pdf/_class/locale.class.php on line 70
